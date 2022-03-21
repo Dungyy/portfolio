@@ -4,6 +4,7 @@
 body {
   font-family: "italic", sans-serif;
   color: #000000;
+  background-color: #000000;
 }
 
 a {
@@ -40,12 +41,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: black;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: white;
   color: #fff;
 }
 
@@ -110,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .profile .social-links a:hover {
   background: #149ddd;
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
@@ -182,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
-  color: #fff;
+  color: black;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -237,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
-  color: #fff;
+  color: #9DADBC;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -277,7 +278,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #000000b0;
 }
 
 .section-title {
@@ -290,7 +291,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #149DDD;
 }
 
 .section-title h2::after {
@@ -299,7 +300,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #394855;
   bottom: 0;
   left: 0;
 }
@@ -315,12 +316,15 @@ section {
 .about-p {
   line-height: 2rem;
   display: block;
+  color:rgb(135, 150, 156);
+  line-height: 40px;
+  font-size: large;
 }
 
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #149ddd;
 }
 
 .about .content ul {
@@ -363,6 +367,11 @@ section {
 # Skills
 --------------------------------------------------------------*/
 
+#skills {
+  color: #394855;
+}
+
+
 .skills {
 color:black
 /* color: #173b6c; */
@@ -377,11 +386,12 @@ color:black
   bottom: 111px;
 }
 
-
-
 .text {
   font-family: "Poppins", sans-serif;
   font-weight: lighter;
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  
 }
 
 /*--------------------------------------------------------------
@@ -507,53 +517,80 @@ color:black
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
+.social-icons {
+  color: rgb(255, 166, 0);
+  padding: 5px;
+}
+
+.social-icons:hover {
+  color: rgba(20, 157, 221, 0.95);
+}
+
 .contact .info i {
-  font-size: 20px;
+  font-size: 30px;
   color: #149ddd;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  justify-content: space-evenly;
+}
+
+.contact .info i:hover {
+  background: #149ddd;
+  color: black;
+
 }
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #000000;
+  color: #9DADBC;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 14px;
-  color: #173b6c;
+  font-size: 1.2rem;
+  color: #394855;
+}
+
+.email a {
+  color: #394855;
+  margin-left: 15px;
+  font-size: 1.2rem;
+}
+
+.contact .info a:hover {
+  color: #9DADBC;
 }
 
 .contact .info .email p {
   padding-top: 5px;
+  
 }
 
 .contact .info .social-links {
   padding-left: 60px;
+
 }
 
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: #394855;
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -571,7 +608,7 @@ color:black
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #149ddd;
-  color: #fff;
+  color: black;
 }
 
 @-webkit-keyframes animate-loading {
