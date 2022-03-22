@@ -49,7 +49,7 @@
       <div class="profile">
         <img src="../static/iPortfolio/assets/img/erick-img%20(2).jpg" alt="" class="img-fluid rounded-circle">
         <!-- <h1 class="text-light"><a href="index.html">Erick Munoz</a></h1> -->
-        <div class="social-links mt-3 text-center">
+        <div class="social-links nav-link mt-3 text-center">
           <a href="https://github.com/Dungyy" class="twitter"><i class="bx bxl-github"></i></a>
           <a href="https://twitter.com/codewithdungy" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.linkedin.com/in/erick-munoz-2532ab219/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
@@ -92,10 +92,11 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="../static/iPortfolio/assets/img/dungy.img.JPG" class="dungy-pic img-fluid" alt="">
+          <div class="col-lg-4 dungy-pic" data-aos="fade-right">
+            <img src="../static/iPortfolio/assets/img/dungy.img.png" class="dungy-pic img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <br/>
             <h3>Erick Munoz </h3>
             <p class="about-p" data-aos="fade-up"  data-aos-delay="200">I am a Software Developer who has a genuine enthusiasm for programming, Learning new technologies, and helping people. My life changed after being told I could have cancer malignancy I needed to completely step out of my comfort zone and make an improvement path for my family and me, So what I did was grab a book and some online courses and began my Tech venture.
             *Friendly reminder that life is short, so appreciate it and live the life YOU want to live.*
@@ -110,46 +111,60 @@
 
     <!-- ======= Skills Section ======= -->
 
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-            <div class="row" data-aos="fade-up">
-               <div class="section-title">
-               <h2>Skills:</h2>
-               </div>
-              <div class="col skills-content">
-                <i class="fab akills fa-python fa-3x"></i><h4 class="text">Python</h4><br>
-                <i class="fab akills fa-node fa-3x"></i><h4 class="text">NodeJS </h4><br>
-                <i class="fab akills fa-html5 fa-3x"></i><h4 class="text">HTML </h4><br>
-                <i class="fab akills fa-css3-alt fa-3x"></i><h4 class="text">CSS </h4><br>
-                <i class="fab akills fa-js-square fa-3x"></i><h4 class="text">JavaScript</h4><br>
-                <i class="fab akills fa-react fa-3x"></i><h4 class="text">ReactJS</h4><br>
-
-                <br>
-            </div>
-
-    <!-- ======= Tools Section ======= -->
-
-            <div class="col section-title skills-content tools" data-aos="fade-up">
-                <div class="section-title">
-                <h2>Tools:</h2>
-                </div>
-               
-               <h4 class="text">-Flask 'Mirco Framework'</h4><br>
-               <h4 class="text">-BootStrap 4 | 5</h4><br>
-               <h4 class="text">-jQuery</h4><br>
-               <!-- <h4 class="text">-MongoDB (Learning)</h4><br> -->
-               <h4 class="text">-API | REST</h4><br>
-               <h4 class="text">-Node Package Manager</h4><br>
-               <h4 class="text">-Styled-Components</h4><br>
-               <h4 class="text">-ExpressJS</h4><br>
-               <h4 class="text">-NextJS</h4><br>
-               <h4 class="text">-ViteJS</h4><br>
-               <h4 class="text">-Git | GitHub</h4><br>
-               <h4 class="text">-Visual Studio Code</h4>
-            </div>
-          </div>
+    <section id="skills" class="Tech section-title skills ">
+      <div class="tech" data-aos="fade-up">
+          <h2>Technologies</h2>
+          <p>I work with a wide range of technologies from ReactJS for frontend UI/UX Design, MongoDB as a database, NodeJS for backend, and ExpressJS for making HTTPS and API requests.</p>
       </div>
+      <br/>
+      <div class="Tech-stack ">
+        <br/>
+      <div class="frontend" data-aos="fade-left">
+        <h3>Front-end</h3>
+        
+        <ul style="display: flex">
+          <i class="fab akills fa-html5 fa-2x"></i><h4 class="text">HTML </h4>
+        </ul>
+        <ul style="display: flex">
+          <i class="fab akills fa-css3-alt fa-2x"></i><h4 class="text">CSS </h4>
+        </ul>
+        <ul style="display: flex">
+          <i class="fab akills fa-js-square fa-2x"></i><h4 class="text">JavaScript es6</h4>
+        </ul>
+        <ul style="display: flex">
+          <i class="fab akills fa-react fa-2x"></i><h4 class="text">ReactJS</h4>
+        </ul>
+      </div>
+      <br/>
+      <div class="backend" data-aos="fade-up">
+        <h3>Backend</h3>
+        <ul style="display: flex">
+          <i class="fab fa-python fa-2x"></i><h4 class="text">Python</h4>
+        </ul>
+        <ul style="display: flex">
+          <i class="fab akills fa-node-js fa-2x"></i><h4 class="text">NodeJS </h4>
+        </ul>
+      </div>
+      <br/>
+      <div class="stack-tools" data-aos="fade-right">
+        <h3 style="margin-left: 25px;">Tools</h3>
+        <ul>
+          ExpressJS | NextJS | ViteJS
+        </ul>
+        <ul>
+          MongoDB | Mongoose Atlas | MySql
+        </ul>
+        <ul>
+          BootStrap 4/5 | NPM | RESTful API
+        </ul>
+        <ul>
+          GIT | GitHub Version Control
+        </ul>
+        <ul>
+          Visual Studio Code | Object Oriented Programming
+        </ul>
+      </div>
+    </div>
     </section>
 
     <!-- End Skills/Tools Section -->
@@ -247,7 +262,7 @@
             <div class="portfolio-wrap">
               <img src="../static/iPortfolio/assets/img/portfolio/Keeper-app.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="../static/iPortfolio/assets/img/portfolio/Keeper-app.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Keeper-app a CRUD application made to keep memories."/>Keeper<a class="bx " href="https://dungy-list.herokuapp.com/">Live</a></a><a class="bx " href="https://github.com/Dungyy/Keeper-app/">Code</a>
+                <a href="../static/iPortfolio/assets/img/portfolio/Keeper-app.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Keeper-app a CRUD application made to keep memories."/>Keeper<a class="bx " href="https://dungy-keeper-app.netlify.app/">Live</a></a><a class="bx " href="https://github.com/Dungyy/Keeper-app/">Code</a>
               </div>
             </div>
           </div>
@@ -263,7 +278,7 @@
       <div class="testimonials-slider">
 
         <div class="section-title contact1">
-          <h2>Contact</h2>
+          <h2 >Contact</h2>
           <p></p>
         </div>
 

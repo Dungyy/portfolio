@@ -2,9 +2,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "italic", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #000000;
   background-color: #000000;
+  line-height: 42px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 a {
@@ -17,10 +20,14 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
-
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -89,7 +96,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -97,8 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  background: black;
+  color: #000000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -110,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #9dadbc;
   color: black;
   text-decoration: none;
 }
@@ -147,7 +155,8 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -157,18 +166,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -202,6 +218,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.profile img {
+  filter: grayscale(100%);
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -230,15 +250,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  font-family: 'Sedgwick Ave Display', cursive; 
+  font-family: "Sedgwick Ave Display", cursive;
   color: #149ddd;
   margin: 0 0 10px 0;
   font-size: 70px;
-
 }
 
 #hero p {
-  color: #9DADBC;
+  color: #9dadbc;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -291,11 +310,11 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #149DDD;
+  color: #149ddd;
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -313,12 +332,16 @@ section {
 # About
 --------------------------------------------------------------*/
 
+.dungy-pic img {
+  filter: grayscale(100%);
+}
+
+
 .about-p {
-  line-height: 2rem;
   display: block;
-  color:rgb(135, 150, 156);
-  line-height: 40px;
-  font-size: large;
+  color: rgb(135, 150, 156);
+  line-height: 42px;
+  font-size: 20px;
 }
 
 .about .content h3 {
@@ -353,8 +376,6 @@ section {
   margin-bottom: 0;
 }
 
-
-
 /*--------------------------------------------------------------
 # BIO
 --------------------------------------------------------------*/
@@ -367,42 +388,100 @@ section {
 # Skills
 --------------------------------------------------------------*/
 
-#skills {
-  color: #394855;
+.Tech {
+  color: rgb(135, 150, 156);
+  padding: 20px 0 10px 10px;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  margin-left: 30px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@media (max-width: 700px) {
+  .Tech {
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+    justify-content: center;
+  }
+}
+
+.Tech-stack {
+  color: rgb(135, 150, 156);
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 30px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+
+}
+
+.Tech-stack h3 {
+  color: #149ddd;
+  font-weight: 650;
+}
+
+@media (max-width: 700px) {
+  .Tech-stack {
+    display: flex;
+    flex-direction: column;
+    margin: 75px;
+  
+  }
+}
+
+.frontend {
+  align-items: center;
+}
+
+.backend {
+  align-items: center;
+
+}
+
+.stack-tools {
+  align-items: center;
+  margin-left: 10px;
+}
+
+#skills {
+  color: rgb(135, 150, 156);
+}
 
 .skills {
-color:black
-/* color: #173b6c; */
-
+  color: black;
+  /* color: #173b6c; */
 }
 
 /*--------------------------------------------------------------
 # Tools
 --------------------------------------------------------------*/
 .tools {
-  position: relative; 
+  position: relative;
   bottom: 111px;
 }
 
 .text {
   font-family: "Poppins", sans-serif;
   font-weight: lighter;
-  color:rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.2rem;
-  
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio a{
+  font-family: "Sedgwick Ave Display", cursive;
+
+}
+
 .items {
   justify-content: space-between;
 }
-
-
-
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -431,7 +510,8 @@ color:black
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -474,18 +554,19 @@ color:black
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
+  font-family: "Sedgwick Ave Display", cursive;;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #040b14;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #149ddd;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #040b14;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -501,14 +582,13 @@ color:black
   bottom: 0;
 }
 
-
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact1 {
-  margin-left: 10px;
+  margin-left: 2.7rem;
 }
+
 
 
 .contact {
@@ -548,7 +628,6 @@ color:black
 .contact .info i:hover {
   background: #149ddd;
   color: black;
-
 }
 
 .contact .info h4 {
@@ -556,7 +635,7 @@ color:black
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #9DADBC;
+  color: #9dadbc;
 }
 
 .contact .info p {
@@ -573,17 +652,15 @@ color:black
 }
 
 .contact .info a:hover {
-  color: #9DADBC;
+  color: #9dadbc;
 }
 
 .contact .info .email p {
   padding-top: 5px;
-  
 }
 
 .contact .info .social-links {
   padding-left: 60px;
-
 }
 
 .contact .info .social-links a {
@@ -601,12 +678,23 @@ color:black
   margin-right: 10px;
 }
 
-.contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+.nav-link i {
+  color: #149ddd;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.nav-link i:hover {
+  color: #000000;
+}
+
+
+.contact .info .social-links:hover {
+  color: black;
+  background: black;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: black;
 }
