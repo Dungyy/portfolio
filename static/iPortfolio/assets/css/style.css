@@ -151,6 +151,7 @@ h6 {
 
 .profile img {
   padding: 15px;
+  filter: grayscale(50%)
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -438,7 +439,15 @@ section {
   color: #1f5297;
   font-weight: 650;
 }
+.Tech-stack h4 {
+  color: rgb(135, 150, 156);
+  padding-left: 10px;
+}
 
+.Tech-stack ul {
+  color: rgb(135, 150, 156);
+
+}
 @media (max-width: 700px) {
   .Tech-stack {
     display: flex;
@@ -460,9 +469,18 @@ section {
   margin-left: 10px;
 }
 
+
 #skills {
   color: rgb(135, 150, 156);
   margin-right: 60px;
+}
+
+#skills ul {
+  color: rgb(135, 150, 156);
+}
+
+#skills ul:hover {
+  color: #1f5297;
 }
 
 .skills {
@@ -513,6 +531,15 @@ section {
   margin-bottom: 10px;
 }
 
+.resume-item h4:hover {
+  color: #1f5297;
+}
+
+.resume-item h5:hover {
+  color: #1f5297;
+
+}
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: rgba(255, 255, 255, 0.155);
@@ -520,6 +547,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 5%;
 }
 
 .resume .resume-item ul {
@@ -681,6 +709,10 @@ section {
   background: rgb(0, 0, 0);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.phone p:hover {
+  color: #0e2442;
 }
 
 .social-icons {
