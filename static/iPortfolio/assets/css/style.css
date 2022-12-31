@@ -350,7 +350,6 @@ section {
 
 .dungy-pic img {
   filter: grayscale(100%);
-  filter: brightness(2%);
 }
 
 .about-p {
@@ -463,6 +462,7 @@ section {
 
 #skills {
   color: rgb(135, 150, 156);
+  margin-right: 60px;
 }
 
 .skills {
@@ -668,7 +668,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact1 {
-  margin-left: 2.7rem;
+  margin-left: 10px;
 }
 
 .contact {
@@ -763,6 +763,7 @@ section {
   position: relative;
   top: -35px;
   cursor: pointer;
+  margin-top: 15px;
 }
 
 .nav-menu span {
