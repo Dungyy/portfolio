@@ -919,3 +919,46 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* privacy-policy-content */
+
+#privacy-policy-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.privacy-policy-content {
+  justify-content: center;
+  margin-top: 30%;
+  margin-left: 20%;
+  padding: 30px;
+}
+
+#privacy-policy-popup {
+  display: none; /* Initially hidden */
+  position: fixed; /* Stay in place */
+  /* z-index: 1; Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background: #000;
+}
+
+#close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin-top: 25%;
+
+}
+#close-button:hover {
+  color: red;
+}

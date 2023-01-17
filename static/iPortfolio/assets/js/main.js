@@ -218,4 +218,21 @@
     })
   });
 
+  var privacyPolicyButton = document.getElementById("privacy-policy-button");
+  var privacyPolicyPopup = document.getElementById("privacy-policy-popup");
+
+  privacyPolicyButton.onclick = function() {
+    privacyPolicyPopup.style.display = "block";
+  }
+  var closeButton = document.getElementById("close-button");
+
+closeButton.onclick = function() {
+privacyPolicyPopup.style.display = "none";
+}
+  window.onclick = function(event) {
+if (event.target == privacyPolicyPopup) {
+  privacyPolicyPopup.style.display = "none";
+}
+}
+
 })()
