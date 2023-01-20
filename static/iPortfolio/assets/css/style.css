@@ -484,7 +484,7 @@ section {
 }
 
 .skills {
-  color: black;
+  color: rgb(135, 150, 156);
   /* color: #173b6c; */
 }
 
@@ -924,7 +924,7 @@ section {
 
 #privacy-policy-button {
   background-color: #000;
-  color: #fff;
+  color: #9dadbc;
   border: none;
 }
 
@@ -955,7 +955,7 @@ section {
   font-size: 18px;
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: #9dadbc;
   margin-top: 25%;
 
 }
