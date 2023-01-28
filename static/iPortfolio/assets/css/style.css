@@ -83,7 +83,7 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 230px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -95,8 +95,9 @@ h6 {
 #header .erick img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 120px; 
+  border: 20px solid #2c2f3f;
+  border-radius: 50%;
 }
 
 #header .profile h1 {
