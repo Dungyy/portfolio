@@ -483,6 +483,9 @@ section {
 #skills ul:hover {
   color: #1f5297;
 }
+.backend i:hover {
+  color: #1f5297;
+}
 
 .skills {
   color: rgb(135, 150, 156);
